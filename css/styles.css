@@ -9,7 +9,13 @@ label {
   color: black;
 }
 
+p {
+  font-size: 115px;
+  font-family: monospace;
+}
+
 #vacation {
+  font-family: cursive;
   font-size: 125px;
   color: #E6E615;
   border: solid;
@@ -18,6 +24,7 @@ label {
 }
 
 #vacation1 {
+  font-family: monospace;
   font-size: 115px;
   color: #E6E615;
   border: solid;
@@ -26,6 +33,7 @@ label {
 }
 
 #vacation2 {
+  font-family: monospace;
   font-size: 100px;
   color: #08889C;
   border: solid;
@@ -34,12 +42,15 @@ label {
 }
 
 #vacation3 {
+  font-family: fantasy;
   font-size: 115px;
   color: white;
   border: solid;
   border-radius: 450px;
   border-color: red;
 }
+
+
 
 
 /*Question Form*/
@@ -55,6 +66,16 @@ label {
 button {
   margin-top: 25px;
 }
+
+#questin {
+  float: left;
+}
+
+#destiout {
+  float: right;
+  margin-bottom: 500px;
+}
+
 
 /*FAQ*/
 .thumbnail {

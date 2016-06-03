@@ -19,11 +19,20 @@
         </div>
       </div>
     </nav>
+    <!-- Form for namefield -->
+    <div class="container">
+     <form id="letterform" >
+       <div class="input-group">
+         <span class="input-group-addon"></span>
+         <input id="namefield" type="text" class="form-control" placeholder="Name">
+       </div>
+     </form>
+   </div>
     <!-- QUESTIONNAIRE -->
     <div class="container">
       <div class ="questions">
         <div class="row">
-          <div class="col-md-6">
+          <div id="questin" class="col-md-6">
             <form class="questionnaire">
               <div class="q1form-group">
                 <label for="q1select">What is your ideal type of weather?</label>
@@ -86,8 +95,9 @@
             </form>
           </div>
         <!-- OUTPUT -->
-        <div class="col-md-6">
+        <div id="destiout" class="col-md-6">
           <div class="output">
+            <p>You should visit:<p>
             <p id="vacation"><strong>Sweden<strong></p>
             <p id="vacation1"><strong>Bahamas</strong></p>
             <p id="vacation2"><strong>Portland</strong></p>

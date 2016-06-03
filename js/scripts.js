@@ -28,8 +28,6 @@ $(function(){
 
 
 
-
-
   //   if (vacation = true){
   //   $(".output").empty().append("Sweden")
   // } if (vacation1 = true){
