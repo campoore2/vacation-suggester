@@ -11,16 +11,16 @@ $(function(){
     var vacation1 = ("Bahamas");
     var vacation2 = ("Portland");
     var vacation3 = ("Florida");
-    var total = ques1 + ques2 + ques3 + ques4 + ques5
-
+    var total = ques1 + ques2 + ques3 + ques4 + ques5 + ques6
+    debugger;
     if ("!q6select"){
     } if (total >=5 && total <10){
       $("#vacation").show();
     } else if (total >=10 && total <15){
       $("#vacation1").show();
-    } else if (total >=16 && total <25){
+    } else if (total >=16 && total <20){
       $("#vacation2").show();
-    } else if (total ===22){
+    } else if (total >=20 && total <26){
       $("#vacation3").show();
     }
 
