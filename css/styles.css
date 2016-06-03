@@ -6,9 +6,17 @@ body {
 
 }
 
+/*Index Page*/
 
 /*Question Form*/
 .questions {
   margin-top: 75px;
   margin-right: 70px
+}
+
+
+/*FAQ*/
+.thumbnail {
+  margin-top: 75px;
+  background-color: white;
 }
