@@ -7,25 +7,29 @@ $(function(){
     var ques4 = parseInt($("#ques4select option:selected").val());
     var ques5 = parseInt($("#ques5select option:selected").val());
     var ques6 = parseInt($("#ques6select option:selected").val());
-    var vacation;
-    var total = ques1 + ques2 + ques3 + ques4 + ques5;
+    var vacation = ("test1")
+    var vacation1 = ("test2")
+    var vacation2 = ("test3")
+    var vacation3 = ("wasd")
+    var total = ques1 + ques2 + ques3 + ques4 + ques5
 
-    debugger;
-    if (!ques6) {
-      if (total >= 5 && total <10){
-        vacation = "test1";
-      }
-      else if (total >=10 && total <15 && total !==12) {
-        vacation = "test2";
-      }
-      else if (total >=15 && total <20){
-        vacation = "test3";
-      }
-      else if (total === 12){
-        vacation="test4";
-      }
-      $(".output").empty().append("<div class='thumbnail'><div class='caption'><h3>You are: " + vacation + "</h3></div></div>");
-
+    if (total >=5 && total <10){
+      vacation="test1";
+    } else if (total >=10 && total <15 && total !=12){
+      vacation1="test2";
+    } else if (total >=16 && total <22){
+      vacation2="test3";
+    } else if (total ===12){
+      vacation3="wasd";
     }
+
+
+
+
+debugger;
+
+
+
+    $(".output").empty().append("<div class='thumbnail'><div class='caption'><h3>You are: " + vacation + "</h3></div></div>")
   })
 })
