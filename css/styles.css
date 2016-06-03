@@ -5,6 +5,9 @@
 body {
   background-color: #1C9E71;
 }
+label {
+  color: black;
+}
 
 /*Index Page*/
 
@@ -14,7 +17,7 @@ body {
   margin-right: 70px;
 }
 
-#vacation, #vacation1, #vacation2, #vaction3 {
+#vacation, #vacation1, #vacation2, #vacation3 {
   display: none;
 }
 

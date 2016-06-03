@@ -12,15 +12,15 @@ $(function(){
     var vacation2 = ("Portland");
     var vacation3 = ("Florida");
     var total = ques1 + ques2 + ques3 + ques4 + ques5 + ques6
-    debugger;
-    if ("!q6select"){
+
+    if ("!ques6"){
     } if (total >=5 && total <10){
       $("#vacation").show();
     } else if (total >=10 && total <15){
       $("#vacation1").show();
     } else if (total >=16 && total <20){
       $("#vacation2").show();
-    } else if (total >=20 && total <26){
+    } else if (total >=21 && total <25){
       $("#vacation3").show();
     }
 
