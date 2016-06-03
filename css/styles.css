@@ -11,9 +11,12 @@ body {
 /*Question Form*/
 .questions {
   margin-top: 75px;
-  margin-right: 70px
+  margin-right: 70px;
 }
 
+button {
+  margin-top: 25px;
+}
 
 /*FAQ*/
 .thumbnail {
