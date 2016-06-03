@@ -3,13 +3,44 @@
 
 /*body */
 body {
-  background-color: #1C9E71;
+  background-color: #C39EDB;
 }
 label {
   color: black;
 }
 
-/*Index Page*/
+#vacation {
+  font-size: 125px;
+  color: #E6E615;
+  border: solid;
+  border-radius: 500px;
+  border-color: blue;
+}
+
+#vacation1 {
+  font-size: 115px;
+  color: #E6E615;
+  border: solid;
+  border-radius: 500px;
+  border-color: #15CAE6;
+}
+
+#vacation2 {
+  font-size: 100px;
+  color: #08889C;
+  border: solid;
+  border-radius: 500px;
+  border-color: #208005;
+}
+
+#vacation3 {
+  font-size: 115px;
+  color: white;
+  border: solid;
+  border-radius: 450px;
+  border-color: red;
+}
+
 
 /*Question Form*/
 .questions {
