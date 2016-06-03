@@ -13,23 +13,38 @@ $(function(){
     var vacation3 = ("wasd")
     var total = ques1 + ques2 + ques3 + ques4 + ques5
 
-    if (total >=5 && total <10){
-      vacation="test1";
+    if ("!ques6select"){
+    }else if (total >=5 && total <10){
+
+      $("#vacation").show();
     } else if (total >=10 && total <15 && total !=12){
-      vacation1="test2";
+
+      $("#vacation1").show();
     } else if (total >=16 && total <22){
-      vacation2="test3";
+
+      $("#vacation2").show();
     } else if (total ===12){
-      vacation3="wasd";
+
+      $("#vacation3").show();
     }
 
 
 
 
-debugger;
 
 
 
-    $(".output").empty().append("<div class='thumbnail'><div class='caption'><h3>You are: " + vacation + "</h3></div></div>")
+    if (vacation = true){
+    $(".output").empty().append("Sweden")
+  } if (vacation1 = true){
+    $(".output").empty().append("#vacation1")
+  } if (vacation2 = true){
+    $(".output").empty().append("#vacation2")
+  } if (vacation3 = true){
+    $(".output").empty().append("Island")
+  }
+
+
+
   })
 })
